@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+
+}
+
+#main {
+
+}
+
+#header{
+height: 56px ;
+background-color: crimson;
+position: fixed;
+top: 0px;
+left: 0;
+right: 0;
+
+}
+
+#header .search-container{
+    float: left;
+    line-height: 56px;
+    
+
+}
+
+#header .search-container button {
+    float: right;
+    padding: 1px 14px;
+    margin-top: 18px;
+    margin-right: 16px;
+    background:crimson;
+    font-size: 16px;
+    border: none;
+ 
+  }
+  #header .search-container button:hover{
+    background:crimson  ;
+    cursor: pointer;  
+  }
+
+#nav, .subnav{
+    list-style-type: none;
+}
+#nav{
+display: inline-block;
+
+}
+#nav > li {
+    display: inline-block;
+    
+
+}
+#nav li {
+    padding: 0 19px;
+    position: relative;
+}
+
+
+#nav li a{
+color: #fff;
+text-decoration:none;
+line-height:56px;
+
+}
+#nav > li >a {
+    text-transform: uppercase;
+
+}
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav .subnav{
+
+
+    min-width: 158px;
+   display: none;
+    position: absolute;
+    background-color: black;
+
+}
+#nav .subnav a{
+
+    line-height: 36px;
+}
+
+#slider{
+margin-top: 56px;
+
+}
+
+#slider .icon-bar{
+  width: 50px;
+  bottom: 25%;
+  position: fixed;
+}
+#slider .icon-bar .active {
+  background-color: #04AA6D;
+  
+}
+
+#slider .icon-bar a{
+
+  display: block;
+  text-align: center;
+  padding: 8px;
+  margin: 12px 0px;
+  background-color: #666;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 24px;
+  border-radius: 50px;
+}
+#slider .icon-bar a:hover {
+  background-color:crimson;
+  padding-right: 77px;
+    padding-left: 50px;
+  align-items: center;
+  
+}
+#content{
+  
+}
+#content .header-content{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+#content .row {
+  margin: 40px;
+  
+}
+#content .row,
+.row > .column {
+padding: 20px;
+
+}
+#content .row a { 
+text-decoration: none;
+}
+
+.content{
+  display: inline-block;
+}
+#content .column {
+  float: left;
+  width: 33.33%;
+
+}
+#content .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#content .row .column {
+  display: inline-block;
+}
+#content .column:hover img {
+  cursor: pointer;
+}
+
+#content .Gia {
+text-align:center ;
+}
+
+
+.row .column .content h4:hover {
+  color:blue;
+}
+
+.btn .active {
+  background-color:   #666;
+  color: white;
+}
+.show {
+  display: block;
+}
+
+#content .support  .open-button{
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+  width: 80px;
+}
+
+#content .chat-popup{
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+#content .support .form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+#content .form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+#content.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+#content .form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+#content .form-container .cancel {
+  background-color: red;
+}
+
+#content.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+#about{
+
+}
+#about .header-about {
+  text-align: center;
+}
+#about .header-about h2{
+  font-size: 28px;
+}
+#about .header-about img{
+width: 300px;
+height: 300px;
+padding: 8px;
+}
+
+#footer{
+  padding-top: 50px;
+  }
+  
+  #footer b{
+   font-size: 18px;
+  }
+  #footer  li a{
+    text-decoration: none;
+  
+  }
+  #footer  li a:hover{
+    color: crimson;
+  }
+  #footer .Vechungtoi,
+  #footer .Thongtin,
+  #footer .Lienhe{
+  padding: 0 12px ;
+  }
+  #footer .Vechungtoi{
+    float: left;
+  }
+  #footer .Thongtin{
+    display: inline-block;
+    text-transform: none;
+  }
+  #footer .Lienhe{
+  float: right;
+  }
+  #footer .Lienhe i{
+    padding-right: 6px;
+  }

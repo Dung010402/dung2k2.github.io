@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+
+}
+
+#main {
+
+}
+
+#header{
+height: 56px ;
+background-color: crimson;
+position: fixed;
+top: 0px;
+left: 0;
+right: 0;
+
+}
+
+#header .search-container{
+    float: left;
+    line-height: 56px;
+    
+
+}
+
+#header .search-container button {
+    float: right;
+    padding: 1px 14px;
+    margin-top: 18px;
+    margin-right: 16px;
+    background:crimson;
+    font-size: 16px;
+    border: none;
+ 
+  }
+  #header .search-container button:hover{
+    background:crimson  ;
+    cursor: pointer;  
+  }
+
+#nav, .subnav{
+    list-style-type: none;
+}
+#nav{
+display: inline-block;
+
+}
+#nav > li {
+    display: inline-block;
+    
+
+}
+#nav li {
+    padding: 0 19px;
+    position: relative;
+}
+
+
+#nav li a{
+color: #fff;
+text-decoration:none;
+line-height:56px;
+
+}
+#nav > li >a {
+    text-transform: uppercase;
+
+}
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav .subnav{
+
+
+    min-width: 158px;
+   display: none;
+    position: absolute;
+    background-color: black;
+
+}
+#nav .subnav a{
+
+    line-height: 36px;
+}
+#Content{
+    display: inline-block;
+    margin-top: 56px;
+
+}
+#Content .Home-page{
+    padding:24px 12px;
+}
+#Content .Home-page h5{
+    display: inline-block;
+}
+#Content .Home-page a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:slategray;
+
+
+}
+#Content .container{
+  padding: 0 24px;
+  float: left;
+}
+.container img {
+    vertical-align: middle;
+  }
+  
+
+  
+  .container .mySlides {
+    display: none;
+  }
+  
+
+  .container .cursor {
+    cursor: pointer;
+  }
+
+  .container .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 8px 16px;
+    color: white;
+  }
+  
+  .container .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  .container .column {
+    float: left;
+    width: 33%;
+    padding: 0 12px;
+  }
+  
+
+  .container .demo {
+    opacity: 0.6;
+  }
+  
+  .container .active,
+  .container .demo:hover {
+    opacity: 1;
+  }
+  #Content .information{
+    float: right;
+    padding: 0 24px;
+  }
+  #Content .information a{
+    text-decoration: none;
+    color: #000;
+    
+  }
+  #Content .information h1{
+  padding-bottom: 14px;
+  }
+  #Content .information .icon-star{
+    color: rgb(207, 87, 12);
+    font-size: 16px;
+  }
+  
+
+  #Content .information .Gia {
+    font-size: 22px;
+    padding: 12px 0;
+  }
+  #Content .Gia del{
+    padding-right: 16px;
+    color: #19161670;
+}
+#Content .size{
+  padding: 12px 0;
+}
+#Content .information hr{
+  border-color: rgba(170, 170, 168, 0.407);
+}
+#Content .information li{
+  padding-top: 10px;
+  list-style-type: none;
+  color:rgba(54, 58, 63, 0.845);
+}
+#Content .information li a{
+  text-transform: uppercase;
+  color: rgb(45, 143, 176);
+}
+#footer{
+padding-top: 50px;
+}
+
+#footer b{
+ font-size: 18px;
+}
+#footer  li a{
+  text-decoration: none;
+
+}
+#footer  li a:hover{
+  color: crimson;
+}
+#footer .Vechungtoi,
+#footer .Thongtin,
+#footer .Lienhe{
+padding: 0 12px ;
+}
+#footer .Vechungtoi{
+  float: left;
+}
+#footer .Thongtin{
+  display: inline-block;
+  text-transform: none;
+}
+#footer .Lienhe{
+float: right;
+}
+#footer .Lienhe i{
+  padding-right: 6px;
+}
+
+
